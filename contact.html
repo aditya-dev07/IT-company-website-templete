@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NexGenz Solutions - Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="index.html">NexGenz Solutions</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <form id="contact-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+          <h2>Our Office</h2>
+          <p>123 NexGen Street, Tech City, IN 45678</p>
+          <p><strong>Phone:</strong> +91 12345 67890</p>
+          <p><strong>Email:</strong> support@nexgensolutions.com</p>
+        </div>
+        <div class="social-media">
+          <h2>Follow Us</h2>
+          <a href="#" target="_blank">Facebook</a>
+          <a href="#" target="_blank">Twitter</a>
+          <a href="#" target="_blank">LinkedIn</a>
+        </div>
+        <div class="operating-hours">
+          <h2>Operating Hours</h2>
+          <p>Monday - Friday: 9 AM - 6 PM</p>
+          <p>Saturday: 10 AM - 4 PM</p>
+          <p>Sunday: Closed</p>
+        </div>
+        <div class="faq">
+          <h2>Frequently Asked Questions</h2>
+          <p><strong>Q:</strong> How long does it take to get a response?<br><strong>A:</strong> We typically respond within 24 hours.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 NexGenz Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Chatbot Widget -->
+  <div id="chatbot">
+    <div id="chatbot-header">
+      Support Chat <span id="chatbot-close">&times;</span>
+    </div>
+    <div id="chatbot-messages"></div>
+    <div id="chatbot-input-area">
+      <input type="text" id="chatbot-input" placeholder="Type your message..." />
+      <button id="chatbot-send">Send</button>
+    </div>
+  </div>
+  <button id="chatbot-toggle">Chat</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
